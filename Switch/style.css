@@ -254,7 +254,7 @@ img.aligncenter {
 
 #content {
 	float: left;
-	width: 650px;
+	/*width: 650px;*/
 	padding: 0px 0px 0px 0px;
 }
 
@@ -287,7 +287,8 @@ img.aligncenter {
 .post .entry {
 	text-align: justify;
 	margin-bottom: 25px;
-	padding: 10px 0px 0px 0px;
+	padding: 10px 50px 0px 50px;
+	font-size: 16pt;
 }
 
 .links {
