@@ -36,7 +36,7 @@ h3 {
 
 p, ul, ol {
 	margin-top: 0;
-	line-height: 180%;
+	line-height: 140%;
 }
 
 ul, ol {
@@ -218,7 +218,7 @@ img.aligncenter {
 	letter-spacing: 1px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 700;
 	color: #FFF;
 }
@@ -229,8 +229,8 @@ img.aligncenter {
 }
 
 #menu a:hover {
-	text-decoration: none;
-	color: #FFF;
+	text-decoration: underline;
+	/*color: #FFF;*/
 }
 
 /* Page */
