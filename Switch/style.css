@@ -4,12 +4,13 @@ Design by TEMPLATED
 http://templated.co
 Released for free under the Creative Commons Attribution License
 */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
 
 body {
 	margin: 0;
 	padding: 0;
 	background: #F0F0F0 url(images/bg.png) repeat;
-	font-family: 'Source Sans Pro';
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
 	font-weight: 300;
 	color: #181B20;
