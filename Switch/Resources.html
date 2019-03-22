@@ -55,16 +55,64 @@ Released   : 20111121
 							<p>Here we list out the sample questions for participant to have a look at the Exam including <strong><I>Online Paper</strong></I> and <strong><I>Hands-on</strong></I> part.</p>
 							<p><strong>●  <u>Multi-Choice</u></strong> <br><br>
 							1. Which of the following statement about RSTP is <strong>NOT</strong> true?
-							<blockquote>(A) The overall convergence time is within 10s.</blockquote>
-							<blockquote>(B) RSTP adopts an unique Proposal/Agreement mechanism to speed up the convergence with each other.</blockquote>
-							<blockquote>(C) When non-root bridges realize there is a Root Port change during the Proposal/Agreement process, it will immediately block all its non-edge port to avoid loops.</blockquote>
-							<blockquote>(D) The "Synchronization" stage during the process speeds up the overall convergence since the loops are prevented, the Root Port-to-be can directly go to forwarding state.</blockquote>
-							<blockquote>(E) All the BPDUs used to calculate RSTP algorithm need to be sent by the root bridge.</blockquote>
+							<blockquote>
+							(A) The overall convergence time is within 10s.<br>
+							(B) RSTP adopts an unique Proposal/Agreement mechanism to speed up the convergence with each other.<br>
+							(C) When non-root bridges realize there is a Root Port change during the Proposal/Agreement process, it will immediately block all its non-edge port to avoid loops.<br>
+							(D) The "Synchronization" stage during the process speeds up the overall convergence since the loops are prevented, the Root Port-to-be can directly go to forwarding state.<br>
+							(E) All the BPDUs used to calculate RSTP algorithm need to be sent by the root bridge.
+							</blockquote>
 							</p>
 							<p><strong>●  <u>Short Answer Questions</u></strong> <br><br>
 							1. What's the meaning of <I><strong>Backup Port</strong></I> and also <I><strong>Alternate Port</strong></I> defined in RSTP?
 							</p>
-							<p><strong>●  <u>Hands-on</u></strong> <br>
+							<p><strong>●  <u>Hands-on</u></strong> <br><br>
+							1. STP/RSTP 
+						    <blockquote>Build up a redundant network with STP and RSTP in a ring topology.</blockquote>
+							<blockquote><span style="background-color:#e0e0e0"><strong>Scenario</strong></span><br>
+								Customer who bought three EKI-7710Gs would like to test the redundant network. He asks whether we can show him how to set STP and RSTP settings on our switches. Please help the customer to finish both STP and RSTP settings based on below topology.<br>
+								<br>Figure 1. Redundant network with STP/RSTP in a ring topology<br>
+								<img src="../images/stp.png" style="width:550px ; valign:center" alt="" />
+								<table align="right" valign="center" style="width:30%;border-top:3px #FFFFFF solid;border-bottom:3px 	#004b97 solid; " rules="rows" border="0" cellpadding="10" cellspacing="10">
+									<tbody>
+									<tr>
+									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 18px;"><strong><i>Required Devices</i></strong></td>
+									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 18px;"></td>
+									</tr>
+									<tr>
+									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 16px;"><strong>Item</strong></td>
+									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 16px;"><strong>Quantity</strong></td>
+									</tr>
+									<tr>
+									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">EKI-7710</td>
+									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">3</td>
+									</tr>
+									<tr>
+									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">Console Cable</td>
+									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">1</td>
+									</tr>
+									<tr>
+									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">24/48V Power Supply</td>
+									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">1</td>
+									</tr>
+									<tr>
+									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">PC or Laptop</td>
+									<td style="text-align:center; font-size: 16px;">1</td>
+									</tr>
+									</tbody>
+								</table>
+							</blockquote>
+							<blockquote><span style="background-color:#e0e0e0"><strong>Requirement</strong></span><br>
+							(i.) Build up the test environment above and provide the <strong><i>“STP Global Setting”</i></strong> on EKI switches when the redundant network is requested to run <strong><i>STP</i></strong>. (See example picture below)<br>
+							<br><img src="../images/stp2.png" style="width:700px ; valign:center" alt="" /><br>
+							(ii.) Please provide the <strong><i>“STP Port Advanced Setting”</i></strong> for all the EKI switches when the redundant network is requested to run <strong><i>STP</i></strong>. (See sample picture below)<br>
+							<br><img src="../images/stp3.png" style="width:700px ; valign:center" alt="" /><br>
+							(iii. ) Please provide the <strong><i>“STP Port Advanced Setting”</i></strong> for all the EKI switches when the redundant network is requested to run <strong><i>RSTP</i></strong>. (See sample picture below)<br>
+							<br><img src="../images/stp4.png" style="width:700px ; valign:center" alt="" />
+							</blockquote>
+							<blockquote><span style="background-color:#e0e0e0"><strong>Results</strong></span><br>
+							Please provide the three corresponding screenshots as shown in the above requirements on the <strong><i>Answer Sheet</i></strong>. You should be able to see the role differences on STP and RSTP of EKI switches if the related setting is correct.
+							</blockquote>
 							</p>
 						</div>
 					</div>
